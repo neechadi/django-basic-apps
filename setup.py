@@ -5,7 +5,11 @@ from distutils.core import setup
 def fullsplit(path, result=None):
     """
     Split a pathname into components (the opposite of os.path.join) in a
-    platform-neutral way.
+    platform-neutral way. git experiment
+    """
+    
+    """
+    commented certain lines...never mind
     """
     if result is None:
         result = []
